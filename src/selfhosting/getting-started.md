@@ -4,14 +4,31 @@ We'll explain the process on how to setup your own server in this page.
 
 To get started, you can start by installing the [server files](https://github.com/RimworldTogether/Rimworld-Together/releases/latest). Choose the appropriate version for your operation system, either Linux or Windows. We do not currently offer support for mac OS nor do we plan to in the future.
 
-## QuickStart
-This guide will assume you're running a windows installation.
+##Quick Start Guide
+This guide will help you set up and run the server on a Windows installation.
 
-Start by creating a folder on your desktop and extracting the server inside of it, you should now be able to launch the server.
+1.	Create a Folder:
+	Create a new folder on your desktop or preferred location.
 
-A bunch of files should have been created, and a terminal window should have popped up. From there, the server should be up and running. You can now join your server through the in game menu, please refer to our client guide for more information.
+2.	Extract the Server Files:
+	Extract the server file/s into the newly created folder.
 
-The first client to join the server will be responsible for creating the world. We heavily recommend only generating the world with the minimum enforced modlist (see how to add enforced mods bellow) to avoid any problems.
+3.	Launch the Server:
+	Run GameServer.exe (you can rename it if you prefer). A terminal window will appear and generate several folders and files. Once this process is complete, the server will be up and running.
+
+4.	Connect to Your Server:
+	You can join your server through the in-game menu, as described in the previous step. For more details, please refer to our client guide. (The Terminal window needs to be left open in the background)
+
+5.	World Creation:
+	The first client to join the server will be responsible for creating the world. We recommend using only the minimum enforced modlist during world creation to avoid potential issues.
+	Essential mods for the server and client to run and connect properly include:
+	Harmony, Core, Any DLC (if used, or you may disable the DLC), RimWorld Together
+
+6.	Mod Recommendations for generation:
+	Use Mods for world generation, use mods that add new world generation or tiles. After world generation, you can add any other mods that do not require a new save file to the server and apply as you would like Enforced/Optional/Forbidden.
+
+##mods
+If you encounter any mods that seem incompatible, please reach out to the mod's author and request a compatibility for the mod to be used with RimWorld Together. Alternatively, you may need to create the compatibility patch yourself.
 
 ## DLCs
 You can find the DLC files on our [GitHub Page](https://github.com/RimworldTogether/Rimworld-Together) for server side use only.
